@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="signHandler"
+            type="com.wael.android.mycard.Sign.View.SignActivity.SignHandler" />
+ </data>
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context=".Sign.View.SignActivity">
+<include
+    android:id="@+id/textView"
+    layout="@layout/temp">
+
+</include>
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/texts"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:padding="20dp"
+            android:text="@string/under_header"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+        <Button
+            android:id="@+id/textView3"
+            style="@style/loginButton"
+            android:layout_marginTop="48dp"
+            android:onClick="@{(v) -> signHandler.showLoginWithMail(v)}"
+
+            android:text="@string/sign_in_with_email"
+            android:textSize="18sp"
+            android:textStyle="bold"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.436"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <Button
+            android:id="@+id/textView4"
+
+            style="@style/loginButton"
+            android:layout_marginTop="80dp"
+            android:onClick="@{(v) -> signHandler.showCreateAccountt(v)}"
+            android:text="@string/create_account"
+
+
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.436"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="Card"
+            type="com.wael.android.mycard.Card.model.Card" />
+
+    </data>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    tools:showIn="@layout/activity_profile">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                style="@style/headerText"
+
+                android:text="@string/account_info"
+                android:layout_marginBottom="20dp"/>
+
+            <RelativeLayout style="@style/profileDetailsLayout">
+                <ImageView
+                    android:id="@+id/nameImageView"
+                    style="@style/profileDetailsImage"
+                    android:src="@drawable/user"
+                    />
+
+                <TextView
+                    android:id="@+id/nameTextView"
+                    android:text="@string/name"
+                    android:layout_toEndOf="@id/nameImageView"
+                style="@style/profileDetailsTextMain" />
+                <TextView
+                    android:text="@={Card.name}"
+                    android:layout_toEndOf="@id/nameImageView"
+                    style="@style/profileDetailsMiniText" />
+
+            </RelativeLayout>
+
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout style="@style/profileDetailsLayout">
+                <ImageView
+                    android:id="@+id/mobileImageView"
+                    android:src="@drawable/smartphone"
+                    style="@style/profileDetailsImage" />
+
+                <TextView
+                    android:text="@string/mobile"
+                    android:layout_toEndOf="@id/mobileImageView"
+                    style="@style/profileDetailsTextMain"
+
+                    />
+
+                <TextView
+                    android:text="@={Card.number}"
+                    android:layout_toEndOf="@id/mobileImageView"
+                    style="@style/profileDetailsMiniText" />
+
+            </RelativeLayout>
+
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout style="@style/profileDetailsLayout">
+                <ImageView
+                    android:id="@+id/emailImageView"
+                        android:src="@drawable/email"
+                    style="@style/profileDetailsImage" />
+
+                <TextView
+                    android:text="@string/email"
+                    android:layout_toEndOf="@id/emailImageView"
+                    style="@style/profileDetailsTextMain" />
+
+                <TextView
+                    android:text="@={Card.email}"
+                    android:layout_toEndOf="@id/emailImageView"
+                    style="@style/profileDetailsMiniText" />
+
+            </RelativeLayout>
+
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout style="@style/profileDetailsLayout">
+                <ImageView
+                    android:id="@+id/addressImageView"
+                    android:src="@drawable/placeholder"
+                    style="@style/profileDetailsImage" />
+
+                <TextView
+                    android:text="@string/address"
+                    android:layout_toEndOf="@id/addressImageView"
+                    style="@style/profileDetailsTextMain" />
+
+                <TextView
+                    android:text="@={Card.address}"
+                    android:layout_toEndOf="@id/addressImageView"
+                    style="@style/profileDetailsMiniText" />
+
+            </RelativeLayout>
+
+            <View style="@style/proifleDetailsView" />
+            <RelativeLayout style="@style/profileDetailsLayout">
+                <ImageView
+                    android:id="@+id/dobImageView"
+                        android:src="@drawable/position"
+                    style="@style/profileDetailsImage" />
+
+                <TextView
+                    android:text="@string/position"
+                    android:layout_toEndOf="@id/dobImageView"
+                    style="@style/profileDetailsTextMain" />
+
+                <TextView
+                    android:text="@={Card.position}"
+                    android:layout_toEndOf="@id/dobImageView"
+                    style="@style/profileDetailsMiniText" />
+
+            </RelativeLayout>
+
+            <View style="@style/proifleDetailsView" />
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/accounts_rs"
+                android:layout_margin="15dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="5dp"
+
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+
+                >
+
+
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+</layout>

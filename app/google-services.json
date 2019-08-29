@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "65014060759",
+    "firebase_url": "https://social-card-fec55.firebaseio.com",
+    "project_id": "social-card-fec55",
+    "storage_bucket": "social-card-fec55.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65014060759:android:81b0acc48944c53b",
+        "android_client_info": {
+          "package_name": "com.wael.android.mycard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "65014060759-1tpru1lkht79rukdn8qsvqmb478j1odv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wael.android.mycard",
+            "certificate_hash": "3869e8de091245e1e7bed9e7a4ee4930a90df3f8"
+          }
+        },
+        {
+          "client_id": "65014060759-0fj0ps2ua80h470bs1kd8jtl09cp15k9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAv-qJMexrrxHzpg__gGuP_bo59lZsTpQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "65014060759-0fj0ps2ua80h470bs1kd8jtl09cp15k9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">My Social Card</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_card">MY Card</string>
+    <string name="under_header">MY card helps you to share your social accounts in one place</string>
+    <string name="google_signIn">Sign In With Google</string>
+    <string name="sign_in_with_number">Sign In with Number</string>
+    <string name="full_name">Full name</string>
+    <string name="user_name">User Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="number">Number</string>
+    <string name="address">Address</string>
+    <string name="position">Position</string>
+    <string name="facebook_account">Facebook-Account-User Name</string>
+    <string name="twitter_account">Twitter-Account User Name</string>
+    <string name="instgram_account">Instgram-Account User Name</string>
+    <string name="create_card">Create Card</string>
+    <string name="information">Information</string>
+    <string name="accounts">Accounts</string>
+    <string name="snap_chat_account">Snap Chat Account User Name</string>
+    <string name="linkedin_account">LinkedIn-Account- User Name</string>
+    <string name="done">DONE</string>
+    <string name="log_out">Log Out</string>
+    <string name="edit_card">Edit Card</string>
+    <string name="view_card">View Card</string>
+    <string name="search_text">Search Text...</string>
+    <string name="search">search</string>
+    <string name="sign_in_with_email">Sign In with Email</string>
+    <string name="create_account">Create Account</string>
+    <string name="account_info">Account Info</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile</string>
+
+
+    <string name="login">LogIn</string>
+    <string name="login_background">login background</string>
+    <string name="social_card">Social Card</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="open_your_card">Open Your Card</string>
+    <string name="search_for_someone">Search For Someone</string>
+    <string name="enter_address">Please Enter Your Address</string>
+    <string name="enter_mail">Please Enter Your Email</string>
+    <string name="enter_name">Please Enter Your Name</string>
+    <string name="enter_position">Please Enter Your Position</string>
+    <string name="help">All information on one place</string>
+    <string name="photo">Photo</string>
+
+
+</resources>

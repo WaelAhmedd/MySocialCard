@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF5526</color>
+    <color name="colorPrimaryDark">#F53900</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorGoogleSignIn">#C71C10</color>
+    <color name="facebookButton">#364FDD</color>
+    <color name="white">#F4F8F7</color>
+    <color name="twitterButton">#00BCD4</color>
+    <color name="texts">#000000</color>
+    <color name="line">#272727</color>
+    <color name="appColor">#F8521F</color>
+
+</resources>
